@@ -12,6 +12,7 @@ const data = [
         price:"$14,000"    ,
         color:" blue"     ,
         category:   "smartphones"  ,
+        company:"Realme",
 
     },
     {
@@ -23,17 +24,20 @@ const data = [
         Price:"$26,000 " ,
         color:"white"      ,
         category:   "smartphones"  ,
+        company:"Samsung",
+
 
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdzF1zEZF1TckP1wmvDzGvsbsRcyF0zvqGJw&s",
-        title: Apple ,
+        title: "Apple" ,
         star:   <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)"  ,
         storage: "8 gb ram 256 gb rom",
         price:  "$65,000"  ,
         color:     "blue",
         category:   "smartphones"  ,
+        company:"Apple",
 
     },
     {
@@ -45,6 +49,7 @@ const data = [
         price:"$20,000"    ,
         color:     "black" ,
         category:   "smartphones"  ,
+        company:"Poco",
 
     },
     {
@@ -56,7 +61,7 @@ const data = [
         price:"$40,000 "   ,
         color:  "white"    ,
         category:  "smartphones"   ,
-
+        company:"Iqoo",
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wWkbpVQxjwwGa62uBUhSL87-BfEJy8pIDA&s",
@@ -67,6 +72,7 @@ const data = [
         price:"$30,000"    ,
         color:    "black"  ,
         category:  "smartphones"   ,
+        company:"Realme",
 
     },
     {
@@ -78,6 +84,7 @@ const data = [
         price:"$25000"    ,
         color:     "blue" ,
         category:  "smartphones"   ,
+        company:"Poco",
 
     },
     {
@@ -90,6 +97,8 @@ const data = [
 
         color:  "white"    ,
         category:  "smartphones"   ,
+        company:"Redmi",
+
 
     },
     {
@@ -101,6 +110,7 @@ const data = [
         price: "$95,000"   ,
         color:  "silver"    ,
         category:   "smartphones"  ,
+        company:"Samsung",
 
     },
     {
@@ -112,6 +122,8 @@ const data = [
         price: "$59,999"   ,
         color: "blue"     ,
         category:  "smartphones"   ,
+        company:"Apple",
+
 
     },
     /////11
@@ -124,6 +136,8 @@ const data = [
         price:"$25,000"    ,
         color:     "white" ,
         category:  "smartphones"   ,
+        company:"Nothing",
+
 
     },
 
@@ -136,7 +150,7 @@ const data = [
         price:  "$1,50,000"  ,
         color:"blue"      ,
         category:   "smartphones"  ,
-
+        company:"Samsung",
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLZ2lHLv0mj1yryyjaU4dKSTX_n4XJPPT32g&s",
@@ -147,6 +161,8 @@ const data = [
         price:" $60,000"   ,
         color:    "black"  ,
         category:   "smartphones"  ,
+        company:"Vivo",
+
 
     },
     {
@@ -158,6 +174,8 @@ const data = [
         price:"$900"    ,
         color: "blue"     ,
         category:"  keyboard",
+        company:"Nokia",
+
 
     },
     {
@@ -169,6 +187,8 @@ const data = [
         price:   "$25,000" ,
         color:    "black"  ,
         category:  "smartphones"   ,
+        company:"Oppo",
+
 
     },
     {
@@ -180,6 +200,8 @@ const data = [
         price:"$20,000"   ,
         color:    " green",
         category:  "smartphones"   ,
+        company:"Oneplus",
+
 
     },
     {
@@ -191,6 +213,8 @@ const data = [
         price:"$150,000"    ,
         color:     "white" ,
         category:  "smartphones"   ,
+        company:"Apple",
+
 
     },
     {
@@ -202,6 +226,7 @@ const data = [
         price:  "$32,899"  ,
         color: "black"     ,
         category:   "smartphones"  ,
+        company:"Vivo",
 
     },
     {
@@ -213,6 +238,7 @@ const data = [
         price:"$25,000"    ,
         color:  "green"    ,
         category:  "smartphones"   ,
+        company:"Motorola",
 
     },
     {
@@ -224,6 +250,7 @@ const data = [
         price: "$25,999",
         color:  "black"    ,
         category:   "smartphones"  ,
+        company:"Realme",
 
     },
     /////21
@@ -236,6 +263,7 @@ const data = [
         price:"1000",
         color: "black",
         category:  "keyboard",
+        company:"saregama",
 
     },
     {
@@ -247,6 +275,7 @@ const data = [
         price:"$15,699",
         color:  "black",
         category:  "smartphones"   ,
+        company:"Realme",
 
     },
     {
@@ -258,6 +287,8 @@ const data = [
         price:  "$70,000"  ,
         color:  "black"    ,
         category:   "smartphones"  ,
+        company:"Oneplus",
+
 
     },
     {
@@ -269,6 +300,8 @@ const data = [
         price:"$16,000",
         color:   "yellow",
         category:  "smartphones"   ,
+        company:"Poco",
+
 
     },
     {
@@ -281,6 +314,7 @@ const data = [
         color: "black",
         
         category:   "smartphones"  ,
+        company:"Lava",
 
     },
     {
@@ -292,6 +326,8 @@ const data = [
         price:"$1,50,000"    ,
         color:  "black"    ,
         category:  "smartphones"    ,
+        company:"Apple",
+
 
     },
     {
@@ -303,6 +339,8 @@ const data = [
         price:"$25,000",
         color: " white",
         category: "smartphones"    ,
+        company:"Poco",
+
 
     },
     {
@@ -314,6 +352,7 @@ const data = [
         price:"$35,000",
         color: "white",
         category:  "smartphones"   ,
+        company:"Iqoo",
 
     },
     {
@@ -324,7 +363,8 @@ const data = [
         storage:"6 gb ram 128 rom",
         price:"$75000",
         color:  "blue",
-        category:   "smartphones"  ,
+        category:   "smartphones" ,
+        company:"Oneplus",
 
     },
     {
@@ -336,6 +376,7 @@ const data = [
         price:"$25,000",
         color:     "black",
         category:  "smartphones"   ,
+        company:"Infinix",
 
     },
     ////31
