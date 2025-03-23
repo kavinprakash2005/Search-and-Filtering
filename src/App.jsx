@@ -13,10 +13,7 @@ function App() {
   const handleInputChange = event => {
     setQuery(event.target.value)
   }
-  const filteredItems = products.filter(
-  (product) =>
-    product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase())!==
-   -1
+  const filteredItems = products.filter((product) =>product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) !== -1
 );
   ///radiofilter
   const handleChange = event => {
@@ -39,24 +36,24 @@ function App() {
 
     if (selected) {
       filteredProducts = filteredProducts.filter(
-        ({ category, color, company, price, title ,storage}) =>
+        ({ category, color, company, price, title }) =>
            category === selected ||
            color === selected ||
           company === selected ||
            price === selected ||
-           storage === selected ||
+          
           title === selected
       );
     }
     return filteredProducts.map
       (({
         img, title, star, reviews,
-        price, company ,storage}) => (
+        price, company }) => (
         <Card
           key={Math.random()}
           img={img}
           title={title}
-          storage={storage}
+          
           star={star}
           price={price}
           reviews={reviews}

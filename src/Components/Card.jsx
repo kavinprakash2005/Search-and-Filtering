@@ -13,7 +13,7 @@ function Card({ img, title, star, reviews, price,Storage }) {
         <h3 className="card-title">
           {title}
         </h3>
-        <h2 className="storage-section">{Storage}</h2>
+        
         <section className="card-reviews">
           {star}  {star}  {star}  {star}
           <span className="total-reviews">

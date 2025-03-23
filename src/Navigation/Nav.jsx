@@ -1,17 +1,23 @@
 import './Nav.css';
 import { AiFillHeart } from "react-icons/ai";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
+const Nav=({handleInputChange,query})=>{
 
-function Nav() {
+
+
+
   return (
 
     <nav>
 
       <div className='nav-container'>
         <input
-          type='text'
+          type='text' 
+          onChange={handleInputChange}
+          value={query}
           className='search-input'
-          placeholder='enter your search mobiles' />
+          placeholder='enter your search mobiles' 
+          />
       </div>
       <div className='profile-cointainer'>
 
@@ -30,6 +36,6 @@ function Nav() {
 
     </nav>
 
-  )
+  );
 }
 export default Nav;
