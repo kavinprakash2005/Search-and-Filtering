@@ -1,19 +1,21 @@
-
+import Button from '../Components/Button';
 import './Recommended.css';
-function Recommended() {
+function Recommended({ handleClick }) {
   return (
     <div>
       <h2 className='recommended-title'>Recommended</h2>
       <div className="recommended-flex">
-        <button className='btns'>All products</button>
-        <button className='btns'>Realme</button>
-        <button className='btns'>redmi</button>
-        <button className='btns'>iqooo</button>
-        <button className='btns'>Oneplus</button>
-        <button className='btns'>iphone</button>
-        <button className='btns'>Vivo</button>
-        <button className='btns'>Samsung</button>
-        <button className='btns'>infinix</button>
+        
+        <Button onClickHandler={handleClick} value="" title='All products' />
+        <Button onClickHandler={handleClick} value="Realme" title='Realme' />
+        <Button onClickHandler={handleClick} value="Samsung" title='Samsung' />
+        <Button onClickHandler={handleClick} value="Apple" title='Apple' />
+        <Button onClickHandler={handleClick} value="Redmi" title='Redmi' />
+        <Button onClickHandler={handleClick} value="Oneplus" title='Oneplus' />
+        <Button onClickHandler={handleClick} value="iqoo" title='iqoo' />
+        <Button onClickHandler={handleClick} value="Infinix" title='Infinx' />
+        <Button onClickHandler={handleClick} value="Oppo" title='Oppo' />
+        <Button onClickHandler={handleClick} value="Poco" title='Poco' />
       </div>
     </div>
   ) 

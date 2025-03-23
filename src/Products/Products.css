@@ -33,8 +33,8 @@
 
 }
 
-.ratings-star {
-    color: green;
+.rating-star {
+    color: #ecd540;
 }
 .total-reviews{
     display: flex;

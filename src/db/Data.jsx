@@ -21,7 +21,7 @@ const data = [
         star:  <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)"  ,
         storage:"6 gb ram 128 gb rom" ,
-        Price:"$26,000 " ,
+        price:"$25000 " ,
         color:"white"      ,
         category:   "smartphones"  ,
         company:"Samsung",
@@ -59,9 +59,9 @@ const data = [
         reviews:"(123 reviews)"   ,
         storage:"6 gb ram 128 rom",
         price:"$40,000 "   ,
-        color:  "white"    ,
+        color:  "black"    ,
         category:  "smartphones"   ,
-        company:"Iqoo",
+        company:"iqoo",
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wWkbpVQxjwwGa62uBUhSL87-BfEJy8pIDA&s",
@@ -77,7 +77,7 @@ const data = [
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrNHUG7TNTZcrmQYiKpqpA51TWSZDFQ7Dw0A&s",
-        title:"Poco x5 pro 5g"  ,
+        title:"poco x5 pro 5g"  ,
         star: <AiFillStar className="rating-star"/>  ,
         reviews: "(123 reviews)"  ,
         storage:"6 gb ram 128 rom",
@@ -95,7 +95,7 @@ const data = [
         storage:"6 gb ram 128 rom",
         price:"$32,999"    ,
 
-        color:  "white"    ,
+        color:  "black"    ,
         category:  "smartphones"   ,
         company:"Redmi",
 
@@ -142,14 +142,14 @@ const data = [
     },
 
     {
-        img: "https://www.designinfo.in/wp-content/uploads/2024/08/samsung-fold5-light-blue-6.webp",
+        img:"https://cdnmedia.placewellretail.com/pub/media/catalog/product/cache/d2f155c8ae3423b25125c336aa39579e/u/n/untitled_design_3__3_9.webp",
         title: "Samsung fold 5" ,
         star: <AiFillStar className="rating-star"/>  ,
         reviews: "(123 reviews)"  ,
         storage:"6 gb ram 128 rom",
         price:  "$1,50,000"  ,
         color:"blue"      ,
-        category:   "smartphones"  ,
+        category:   "fold"  ,
         company:"Samsung",
     },
     {
@@ -171,9 +171,9 @@ const data = [
         star: <AiFillStar className="rating-star"/>  ,
         reviews:  "(123 reviews)" ,
         storage:"2gb rom",
-        price:"$900"    ,
+        price:"$1000"    ,
         color: "blue"     ,
-        category:"  keyboard",
+        category:"keyboard",
         company:"Nokia",
 
 
@@ -312,7 +312,6 @@ const data = [
         storage:"6 gb ram 128 rom",
         price:"$16,000",
         color: "black",
-        
         category:   "smartphones"  ,
         company:"Lava",
 
@@ -352,7 +351,7 @@ const data = [
         price:"$35,000",
         color: "white",
         category:  "smartphones"   ,
-        company:"Iqoo",
+        company:"iqoo",
 
     },
     {
@@ -380,7 +379,33 @@ const data = [
 
     },
     ////31
-   
+   {
+   img:" https://images.samsung.com/is/image/samsung/p6pim/in/feature/165475945/in-feature-galaxy-z-542762089?$FB_TYPE_B_JPG$",
+    
+        title:"Samsung z flip 5g",
+        star:  <AiFillStar className="rating-star"/> ,
+        reviews: "(123 reviews)"  ,
+        storage:"6 gb ram 128 rom",
+        price:"$25,000",
+        color:     "black",
+        category:  "fold"   ,
+        company:"Samsung",
+
+   },
+   {
+  
+
+     img:"https://ampro.in/wp-content/uploads/2025/01/Lenovo-Tab-K11-1.jpg",
+         title:"Lenovo k50 s",
+         star:  <AiFillStar className="rating-star"/> ,
+         reviews: "(123 reviews)"  ,
+         storage:"6 gb ram 128 rom",
+         price:"$25,000",
+         color:     "black",
+         category:  "Tablet"   ,
+         company:"Lenovo",
+   },
+
    
 ];
 export default data;
